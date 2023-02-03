@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Play', sans-serif;
+  font-family: "Play", sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #000;
@@ -51,7 +51,6 @@ main {
   letter-spacing: 1px;
   word-spacing: 2px;
   font-weight: 300;
-  margin-bottom: 1rem;
 }
 
 .score {
@@ -147,11 +146,16 @@ main {
 }
 
 .dice {
+  display: none;
   position: absolute;
   left: 50%;
   top: 16.5rem;
   transform: translateX(-50%);
   height: 10rem;
+}
+
+.show {
+  display: block;
 }
 
 .player--winner {
